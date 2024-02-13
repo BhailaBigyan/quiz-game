@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins';
+  text-align: center;
+  background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+height: 97.5vh;
+
+}
+
+#quiz-container {
+  background-color: whitesmoke;
+  max-width: 40%;
+  min-width: 40%;
+  
+  margin: 10%  auto 8% auto;
+  padding: 1rem;
+  border: 1px solid rgb(248, 220, 248);
+  border-radius: 20px;
+  text-align: left;
+  box-shadow: 0px 5px 50px #735eff;
+}
+h1{
+  font-size: 1.5rem;
+}
+input{
+  font-size: 1rem;
+}
+#options-container {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.option {
+  margin-bottom: 10px; 
+}
+
+input[type="radio"] {
+  
+  border: 2px solid black; 
+  margin-right: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 0.6rem;
+  margin: 0px 0 0 0;
+  cursor: pointer;
+  background-color: #8EC5FC;
+  border: 1px;
+}
+button:hover{
+  box-shadow: 2px 2px 10px #85b2ff;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+}
+li{
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+li:hover{
+  background-color: #99ccff;
+}
+
+.btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+  padding: 0rem;
+}
+
+footer{
+  top: 10%;
+}

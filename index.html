@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <title>Quiz Game</title>
+</head>
+<body>
+  <div class="btnn">
+    <button id="re" onclick="restart()">Re-start</button>
+    
+    <button id="ag" onclick="play_again()">Play-Again</button>
+  </div>
+  <div id="quiz-container">
+    <h1 id="question"></h1>
+    <form id="options-form">
+      <ul id="options-container"></ul>
+    </form>
+    
+    <div class="btn">
+      <div class="btn-child">
+        <button type="button" id="pre-btn" onclick="prev()">Prev</button>
+        <button type="button" id="submit-btn" onclick="check()">Next</button>
+      </div>
+      <button type="button" id="skip-btn" onclick="skip()">Skip</button>
+    </div>
+    <p id="result"></p>
+  </div>
+  <footer>
+    Developed By Bhaila Bigyan.
+  </footer>
+  
+  <script src="big.js"></script> <!-- script.js hala yesma -->
+</body>
+</html>
